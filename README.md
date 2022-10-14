@@ -153,6 +153,8 @@ while True:
 
 ## Task 3: Accommodation
 
+![alt text](https://github.com/Benedek4000/eng130_python_testpractice/blob/main/images/oop_example.png)
+
 code for Accommodation:
 ```python
 class Accommodation:
