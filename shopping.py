@@ -1,57 +1,3 @@
-# Python Test Practice
-
-## Task 1: Fizzbuzz
-
-fizzbuzz game in fizzbuzz.py:
-
-```python
-while True:
-    try:
-        length = int(input("enter fizzbuzz length: "))
-        break
-    except:
-        print("invalid value")
-
-while True:
-    try:
-        fizz = int(input("enter fizz: "))
-        break
-    except:
-        print("invalid value")
-
-while True:
-    try:
-        buzz = int(input("enter buzz: "))
-        break
-    except:
-        print("invalid value")
-
-for i in range(length):
-    if (i+1) % fizz == 0:
-        if (i+1) % buzz == 0:
-            print("fizzbuzz")
-        else:
-            print("fizz")
-    else:
-        if (i+1) % buzz == 0:
-            print("buzz")
-        else:
-            print(i+1)
-```
-
-## Task 2: Shopping
-
-shopping simulator in shopping.py:
-user can:
-- see the products in the shop
-- add products to their basket
-- remove products from their basket
-- see what's in their basket
-
-products can be identified by their name or their product number
-
-the code:
-```python
 products = {
     1: "Bread",
     2: "Milk",
@@ -148,5 +94,3 @@ while True:
     else:
         print('INVALID TASK!')
         continue
-
-```
